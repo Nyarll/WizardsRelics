@@ -1,0 +1,11 @@
+{
+    "id": "WizardsRelics",
+    "pck_name": "WizardsRelics",
+    "name": "Wizards Relics",
+    "author": "unlucky0314",
+    "description": "Slay the Spire 2 mod. Add to Relics.",
+    "version": "0.0.1 develop",
+    "has_pck": true,
+    "has_dll": true,
+    "affects_gameplay": true
+}
