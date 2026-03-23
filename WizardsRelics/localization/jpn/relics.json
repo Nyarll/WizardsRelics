@@ -1,0 +1,5 @@
+{
+    "MAGIC_RING_RELIC.title": "魔力の指輪",
+    "MAGIC_RING_RELIC.description": "戦闘開始時、[gold]筋力[/gold] [blue]2[/blue]を失う。\nターン開始時、{energyPrefix:energyIcons(1)}を得る。",
+    "MAGIC_RING_RELIC.flavor": "[sine]test text[/sine]"
+}
