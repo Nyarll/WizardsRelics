@@ -13,7 +13,7 @@ namespace WizardsRelics.Relics;
 
 public class BlasphemousStatue : RelicModel
 {
-    public override RelicRarity Rarity => RelicRarity.Common;
+    public override RelicRarity Rarity => RelicRarity.Rare;
     public override bool IsAllowed(IRunState runState) => true;
     public override bool ShouldReceiveCombatHooks => true;
 
