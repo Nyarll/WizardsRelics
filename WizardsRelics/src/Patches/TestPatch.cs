@@ -18,7 +18,7 @@ public class TestPatch
     {
         __result.Gold = 999;
 
-        var customRelic = ModelDb.Relic<MagicRingRelic>().ToMutable();
+        var customRelic = ModelDb.Relic<BlasphemousStatue>().ToMutable();
         __result.AddRelicInternal(customRelic);
         Logger.Info("Relics add patch success.");
     }

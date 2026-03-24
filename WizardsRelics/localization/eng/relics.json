@@ -1,5 +1,8 @@
 {
     "MAGIC_RING_RELIC.title": "Magic Ring",
     "MAGIC_RING_RELIC.description": "At the start of combat, your lose [blue]2[/blue] [gold]Strength[/gold].\nAt the start of your turn, you gain [gold]Energy[/gold].",
-    "MAGIC_RING_RELIC.flavor": "[sine]test text[/sine]"
+    "MAGIC_RING_RELIC.flavor": "[sine]test text[/sine]",
+    "BLASPHEMOUS_STATUE.title": "Blasphemous Statue",
+    "BLASPHEMOUS_STATUE.description": "At the start of combat, add [gold]Dazed[/gold], [gold]Mind Rot[/gold] and [gold]Beckon[/gold] into your [gold]Draw Pile[/gold].\nAt the start of your turn, add [gold]Dazed[/gold] into your [gold]Draw Pile[/gold] and you gain [blue]2[/blue] [gold]Energy[/gold].",
+    "BLASPHEMOUS_STATUE.flavor": "[sine]test text[/sine]"
 }

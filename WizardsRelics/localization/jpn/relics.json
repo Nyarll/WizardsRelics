@@ -1,5 +1,8 @@
 {
     "MAGIC_RING_RELIC.title": "魔力の指輪",
     "MAGIC_RING_RELIC.description": "戦闘開始時、[gold]筋力[/gold] [blue]2[/blue]を失う。\nターン開始時、{energyPrefix:energyIcons(1)}を得る。",
-    "MAGIC_RING_RELIC.flavor": "[sine]test text[/sine]"
+    "MAGIC_RING_RELIC.flavor": "[sine]test text[/sine]",
+    "BLASPHEMOUS_STATUE.title": "冒涜の邪神像",
+    "BLASPHEMOUS_STATUE.description": "戦闘開始時、[gold]めまい[/gold]、[gold]精神腐敗[/gold]、[gold]手招き[/gold]を山札に加える。\nターン開始時、[gold]めまい[/gold]を山札に加え、{energyPrefix:energyIcons(2)}を得る。",
+    "BLASPHEMOUS_STATUE.flavor": "[sine]test text[/sine]"
 }

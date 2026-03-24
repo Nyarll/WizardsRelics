@@ -19,9 +19,8 @@ public class RelicPoolPatch
     static void Postfix(ref IEnumerable<RelicModel> __result)
     {
         var list = __result.ToList();
-
-        var customRelic = ModelDb.Relic<MagicRingRelic>();
-        list.Add(customRelic);
+        list.Add(ModelDb.Relic<MagicRingRelic>());
+        list.Add(ModelDb.Relic<BlasphemousStatue>());
 
         __result = list;
     }

@@ -32,7 +32,12 @@ public class MagicRingRelic : RelicModel
             magicRing.Flash();
             return;
         }
-        await PowerCmd.Apply<StrengthPower>(Owner.Creature, -2, Owner.Creature, null);
-        magicRing.Flash();
+        if (combatState.RoundNumber == 1)
+        {
+            // 戦闘開始時
+            await PowerCmd.Apply<StrengthPower>(Owner.Creature, -2, Owner.Creature, null);
+            creature.Player!.PlayerCombatState!.GainEnergy(1);
+            magicRing.Flash();
+        }
     }
 }
